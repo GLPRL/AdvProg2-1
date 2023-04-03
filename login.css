@@ -3,26 +3,8 @@
     margin-right: 40%;
     margin-left: 40%;
     margin-bottom: 20%;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-    color:white;
-    font-family: "Roboto slab";
+    background-color: #38373655 ;
     border-radius: 11px;
-}
-.form-group{
-    margin-left: 5%;
-}
-h1{
-    margin-left: 5%;
-    font-family: "Roboto slab";
-}
-.margin5{
-    margin-left: 5%;
-}
-.placeregister{
-    width:60vh;
-}
-.place{
-    width: 30vh;
 }
 body{
     background-image: url("background.jpg");
@@ -34,65 +16,6 @@ body{
     margin-right: 30%;
     margin-left: 30%;
     margin-bottom: 20%;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-    color:white;
-    font-family: "Roboto slab";
+    background-color: #38373655 ;
     border-radius: 11px;
-}
-.smoke{
-    background-image: url("a1.png");
-}
-.contactBox {
-    height: 65vh;
-    background-color: rgb(0, 1, 58);
-    border-radius: 5px;
-}
-.orangelink{
-    color:orange;
-}
-
-.profilePicture{
-    margin-left:1vh;
-    margin-top:1vh;
-    margin-bottom:1vh;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-}
-
-.userName{
-  margin: 1vh;
-    color:white
-}
-
-#addContact{
-    color:white;
-    float: right;
-    margin-right: 10%;
-    margin-top: 5%;
-}
-
-.contacts{
-    background-color: rgb(159, 158, 158);
-    border-style:solid;
-    border-bottom-width: 1px;
-    border-left: 2px;
-    border-right:2px;
-    border-top:1px;
-}
-
-.contacts:hover{
-    background-color: rgb(139, 175, 225);
-}
-
-.dateTime{
-    margin-right: 8%;
-    margin-top: 7%;
-    font-size: 10px;
-    float: right;
-}
-.chatWindow {
-    width: 50px;
-    height: 65vh;
-    background-color: white;
 }
