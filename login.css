@@ -50,6 +50,9 @@ body{
     border-width: 10px;
     border-color: black;
 }
+.orangelink{
+    color:orange;
+}
 
 .profilePicture{
     margin-left:5%;
