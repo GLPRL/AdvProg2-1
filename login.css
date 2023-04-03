@@ -3,7 +3,9 @@
     margin-right: 40%;
     margin-left: 40%;
     margin-bottom: 20%;
-    background-color: #38373655 ;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    color:white;
+    font-family: "Roboto slab";
     border-radius: 11px;
 }
 .form-group{
@@ -16,8 +18,11 @@ h1{
 .margin5{
     margin-left: 5%;
 }
+.placeregister{
+    width:60vh;
+}
 .place{
-    width:30vh;
+    width: 30vh;
 }
 body{
     background-image: url("background.jpg");
