@@ -69,3 +69,8 @@ body{
     font-size: 10px;
     float: right;
 }
+.chatWindow {
+    width: 50px;
+    height: 65vh;
+    background-color: white;
+}
