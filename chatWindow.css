@@ -125,3 +125,9 @@
     height: 50px;
     border-radius: 25px;
 }
+
+.logoutbutton{
+    margin-top:1px;
+    margin-right:1px;
+    float:right
+}
