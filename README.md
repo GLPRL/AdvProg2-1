@@ -3,7 +3,7 @@ ChatApp Pt.I
 Graphical interface for our web application.
 
 
-** Credits: **
+**Credits:**
 
 - Dekel Schreiber
 
