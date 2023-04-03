@@ -6,6 +6,19 @@
     background-color: #38373655 ;
     border-radius: 11px;
 }
+.form-group{
+    margin-left: 5%;
+}
+h1{
+    margin-left: 5%;
+    font-family: "Georgia";
+}
+.margin5{
+    margin-left: 5%;
+}
+.place{
+    width:30vh;
+}
 body{
     background-image: url("background.jpg");
    
