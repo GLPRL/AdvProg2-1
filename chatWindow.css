@@ -15,5 +15,17 @@
     color:black;
 }
 .messagesWindow {
-
+    height: 82%;
+    background-color: blanchedalmond;
+}
+#outmessage {
+    width: 90%;
+    margin-top: 0.2vh;
+    margin-left:0.2vh;
+    height: 4vh;
+    border: 1px;
+    border-radius: 10px;
+}
+.altsize {
+    margin-bottom: 0.75%;
 }
