@@ -10,3 +10,62 @@ body{
     background-image: url("background.jpg");
    
 }
+
+.register{
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+    background-color: #38373655 ;
+    border-radius: 11px;
+}
+
+.contactBox {
+    height: 65vh;
+    width: 20%;
+    border: 25px black;
+    background-color: rgb(76, 76, 76);
+    border-width: 10px;
+    border-color: black;
+}
+
+.profilePicture{
+    margin-left:5%;
+    margin-top:2%;
+    margin-bottom:2%;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.userName{
+    margin:5%;
+    color:white
+}
+
+#addContact{
+    color:white;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.contacts{
+    background-color: rgb(159, 158, 158);
+    border-style:solid;
+    border-bottom-width: 1px;
+    border-left: 2px;
+    border-right:2px;
+    border-top:1px;
+}
+
+.contacts:hover{
+    background-color: rgb(139, 175, 225);
+}
+
+.dateTime{
+    margin-right: 8%;
+    margin-top: 7%;
+    font-size: 10px;
+    float: right;
+}
