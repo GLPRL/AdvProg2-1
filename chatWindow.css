@@ -17,6 +17,7 @@
 .messagesWindow {
     height: 82%;
     background-color: blanchedalmond;
+    border-radius: 5px;
 }
 #outmessage {
     width: 90%;
@@ -28,4 +29,32 @@
 }
 .altsize {
     margin-bottom: 0.75%;
+}
+.userMessage {
+    float: right;
+    margin-right: 3%;
+    margin-top: 60%;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+    background-color: #76c5f6;
+    width: fit-content;
+    padding: 1%;
+}
+.contactMessage {
+    position: absolute;
+    margin-left: 3%;
+    margin-bottom: 18%;
+    float: left;
+    bottom:0;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+    background-color: greenyellow;
+    width: fit-content;
+    padding: 1%;
 }
