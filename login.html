@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link href="login.css" rel="stylesheet"></link>
-    <!-- Required meta tags -->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -12,14 +12,24 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="text-center logreg" > 
+    <div class="center logreg" >
     <div class="login">
-           <h1>Welcome</h1>
+           <h1 class="margin5 text">Sign-in</h1>
             <form>
-                <div class="form-fields">Username: <input type="email" placeholder="Enter email address" >  </input></div><br>
-                <div class="form-fields">Password: <input type="password" placeholder="Enter password" > </input></div><br>
-                <button class="btn btn-success">Log in</button>  <button class="btn btn-dark">Sign Up</button>
-              
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <div class="place">
+                    <input type="email" class="form-control"  id="username" placeholder="Enter username">
+                        </div>
+
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="place">
+                    <input type="password" class="form-control" id="password" placeholder="Enter password">
+                    </div>
+                </div>
+                <button class="btn btn-success margin5">Log in</button>  <button class="btn btn-dark">Sign Up</button>
             </form> </div>
             <br>
         </div>

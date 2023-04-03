@@ -1,0 +1,137 @@
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chatWindow {
+    width: 50px;
+    height: 65vh;
+    background-color: white;
+}
+.chatProfile {
+    background-color: aliceblue;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.chatUserName {
+    margin:5%;
+    color:black;
+}
+.messagesWindow {
+    height: 82%;
+    background-image: url('Screenshot_4.jpg');
+    background-size: 70%;
+    border-radius: 5px;
+}
+#outmessage {
+    width: 90%;
+    margin-left:0.2vh;
+    margin-top:0.5vh;
+    height: 3.5vh;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+.userMessage {
+    float: right;
+    margin-right: 3%;
+    margin-top: 60%;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+    background-color: #abdbe3;
+    width: fit-content;
+    padding: 1%;
+}
+.contactMessage {
+    position: absolute;
+    margin-left: 3%;
+    margin-bottom: 18%;
+    float: left;
+    bottom:0;
+    border-style: solid;
+    border-color: dimgray;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+    background-color: #fea45f;
+    width: fit-content;
+    padding: 1%;
+}
+.btn {
+    height: 3.5vh;
+    margin-bottom: 1%;
+}
+
+.userTab{
+    background-color: #072d4c;
+}
+
+.userName{
+    margin: 1vh;
+    color:rgb(220, 218, 218)
+}
+  
+  #addContact{
+      color:white;
+      float: right;
+      margin-right: 10%;
+      margin-top: 5%;
+  }
+  
+  .contacts{
+      background-color: #fba25dCA;
+      border-style:solid;
+      border-bottom-width: 1px;
+      border-left: 2px;
+      border-right:2px;
+      border-top:1px;
+  }
+  
+  .contacts:hover{
+      background-color: rgb(255, 199, 146);
+  }
+  
+  .dateTime{
+      margin-right: 8%;
+      margin-top: 7%;
+      font-size: 14px;
+      float: right;
+      color: white;
+  }
+  .chatWindow {
+      width: 50px;
+      height: 65vh;
+      background-color: rgb(255, 255, 255);
+  }
+
+  .contactBox {
+    height: 65vh;
+    background-color: #9fadbd;
+    border-radius: 5px;
+}
+
+.profilePicture{
+    margin-left:1vh;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.logoutbutton{
+    margin-top:1px;
+    margin-right:1px;
+    float:right
+}
+#modalInput{
+    width: 45vh;
+    text-align: center;
+}
