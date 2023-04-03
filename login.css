@@ -22,7 +22,8 @@ body{
 
 .contactBox {
     height: 65vh;
-    background-color: rgb(76, 76, 76);
+    background-color: rgb(0, 1, 58);
+    border-radius: 5px;
 }
 
 .profilePicture{
