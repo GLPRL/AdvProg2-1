@@ -34,6 +34,7 @@
     height: 3.5vh;
     border: 1px;
     border-radius: 10px;
+    background-color: #e0e0e0;
 }
 .userMessage {
     float: right;
@@ -44,14 +45,14 @@
     border-width: 1px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #000;
-    background-color: #76c5f6;
+    background-color: #abdbe3;
     width: fit-content;
     padding: 1%;
 }
 .contactMessage {
     position: absolute;
     margin-left: 3%;
-    margin-bottom: 18%;
+    margin-bottom: 30%;
     float: left;
     bottom:0;
     border-style: solid;
@@ -59,11 +60,68 @@
     border-width: 1px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #000;
-    background-color: greenyellow;
+    background-color: #fea45f;
     width: fit-content;
     padding: 1%;
 }
 .btn {
     height: 3.5vh;
     margin-bottom: 1%;
+}
+
+.userTab{
+    background-color: #154c79;
+}
+
+.userName{
+    margin: 1vh;
+    color:rgb(220, 218, 218)
+}
+  
+  #addContact{
+      color:white;
+      float: right;
+      margin-right: 10%;
+      margin-top: 5%;
+  }
+  
+  .contacts{
+      background-color: #fba25dCA;
+      border-style:solid;
+      border-bottom-width: 1px;
+      border-left: 2px;
+      border-right:2px;
+      border-top:1px;
+  }
+  
+  .contacts:hover{
+      background-color: rgb(255, 199, 146);
+  }
+  
+  .dateTime{
+      margin-right: 8%;
+      margin-top: 7%;
+      font-size: 14px;
+      float: right;
+      color: white;
+  }
+  .chatWindow {
+      width: 50px;
+      height: 65vh;
+      background-color: rgb(255, 255, 255);
+  }
+
+  .contactBox {
+    height: 65vh;
+    background-color: #9fadbd;
+    border-radius: 5px;
+}
+
+.profilePicture{
+    margin-left:1vh;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
 }
