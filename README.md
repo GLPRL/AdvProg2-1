@@ -16,3 +16,5 @@ We developed 3 pages: Login page, Registration page and web-app page.
 For this project, these are only a mock of the site and it's requirements presented to us.
 
 Login page and Registration pages allow to move between them, if a user already exists, or would like to register a new account.
+
+We used Bootstrap 5 as our technology to design the pages, content and visual wise.
