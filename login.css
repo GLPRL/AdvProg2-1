@@ -42,3 +42,6 @@ body{
 .orangelink{
     color:orange;
 }
+.orangelink:hover {
+    color: #2fffd9
+}
