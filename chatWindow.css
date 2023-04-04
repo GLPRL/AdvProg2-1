@@ -64,7 +64,6 @@
     /*margin-left: 3%;*/
     /*margin-top: 47%;*/
     float: left;
-    bottom:0;
     border-style: solid;
     border-color: dimgray;
     border-width: 1px;
@@ -147,5 +146,5 @@
 }
 
 .sendTab{
-
+    margin-bottom: 1vh;
 }
