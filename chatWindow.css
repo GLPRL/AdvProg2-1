@@ -89,11 +89,17 @@
   
   #addContact{
       color:white;
-      float: right;
       margin-right: 10%;
       margin-top: 5%;
+      width:26px;
+      height:26px;
+      fill:white;
+
   }
-  
+  .addContact {
+      float: right;
+      margin-top: 3%;
+  }
   .contacts{
       background-color: #fba25dCA;
       border-style:solid;
