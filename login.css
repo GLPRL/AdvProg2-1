@@ -5,7 +5,6 @@
     margin-bottom: 20%;
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     color:white;
-    font-family: "Roboto slab";
     border-radius: 11px;
 }
 .form-group{
@@ -13,7 +12,6 @@
 }
 h1{
     margin-left: 5%;
-    font-family: "Roboto slab";
 }
 .margin5{
     margin-left: 5%;
@@ -36,7 +34,6 @@ body{
     margin-bottom: 20%;
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     color:white;
-    font-family: "Roboto slab";
     border-radius: 11px;
 }
 .orangelink{
@@ -44,4 +41,9 @@ body{
 }
 .orangelink:hover {
     color: #2fffd9
+}
+#orbtn {
+    background-color: orange;
+    border-color: #885703;
+    color: black;
 }
