@@ -27,6 +27,7 @@ body{
    
 }
 
+
 .register{
     margin-top: 10%;
     margin-right: 30%;
@@ -47,6 +48,7 @@ body{
     border-color: #885703;
     color: black;
 }
-.text {
+
+#text {
     font-family: optima, sans-serif;
 }
