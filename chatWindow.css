@@ -21,13 +21,13 @@
     background-size: 70%;
     border-radius: 5px;
 }
-/*
+
 .userMessage {
     float: right;
-    position: fixed;
+    position: absolute;
     right:0;
     bottom: 0;
-    margin-bottom: 6%;
+    margin-bottom: 8%;
     margin-right:3%;
     border-style: solid;
     border-color: dimgray;
@@ -40,8 +40,8 @@
 }
 .contactMessage {
     margin-left: 2%;
-    margin-bottom: 12%;
-    position: fixed;
+    margin-bottom: 14%;
+    position: absolute;
     bottom: 0;
     float: left;
     border-style: solid;
@@ -53,7 +53,6 @@
     width: fit-content;
     padding: 1%;
 }
-*/
 .userTab{
     background-color: #072d4c;
 }
