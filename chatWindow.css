@@ -20,6 +20,7 @@
     background-image: url('Screenshot_4.jpg');
     background-size: 70%;
     border-radius: 5px;
+
 }
 
 .userMessage {
@@ -27,7 +28,7 @@
     position: absolute;
     right:0;
     bottom: 0;
-    margin-bottom: 8%;
+    margin-bottom: 6vh;
     margin-right:3%;
     border-style: solid;
     border-color: dimgray;
@@ -40,9 +41,10 @@
 }
 .contactMessage {
     margin-left: 2%;
-    margin-bottom: 14%;
+    margin-bottom: 13vh;
     position: absolute;
     bottom: 0;
+    left: 0;
     float: left;
     border-style: solid;
     border-color: dimgray;
