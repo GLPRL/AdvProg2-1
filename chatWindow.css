@@ -16,8 +16,6 @@
     color:black;
 }
 .messagesWindow {
-    height: 82%;
-    background-image: url('Screenshot_4.jpg');
     background-size: 70%;
     border-radius: 5px;
 }
@@ -97,6 +95,12 @@
     background-color: #9fadbd;
     border-radius: 5px;
 }
+.col-8 {
+    background-image: url('Screenshot_4.jpg');
+    background-size: 60% 87%;
+    background-position: center;
+    background-repeat: repeat-x;
+}
 .profilePicture{
     margin-left:1vh;
     margin-top:1vh;
@@ -122,7 +126,7 @@
     margin-top: 68%;
     border-radius: 15px;
     height: 6%;
-    width: 90.5%;
+    width: 90%;
     background-color: #e0e0e0;
     font-size: 140%;
 }
@@ -132,11 +136,13 @@
     margin-left: 91%;
     height: 6%;
     margin-bottom: 0.2%;
-
 }
 #text {
     font-family: optima, sans-serif;
 }
 body{
     background-image: url("background.jpg");
+}
+.messageOutput {
+
 }
