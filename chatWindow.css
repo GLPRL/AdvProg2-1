@@ -4,12 +4,6 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
-.chatWindow {
-    width: 50px;
-    height: 65vh;
-    background-color: white;
-}
 .chatProfile {
     background-color: aliceblue;
     border-color: black;
@@ -26,26 +20,15 @@
     background-image: url('Screenshot_4.jpg');
     background-size: 70%;
     border-radius: 5px;
-    margin-bottom: 1%;
 }
-#outmessage {
-    width: 90%;
-    margin-left:0.2vh;
-    margin-top:0.5vh;
-    height: 3.5vh;
-    border: 1px;
-    border-radius: 10px;
-    background-color: #e0e0e0;
-}
+
 .userMessage {
     float: right;
-    position: fixed;
+    position: absolute;
     right:0;
     bottom: 0;
-    margin-bottom: 12%;
+    margin-bottom: 6vh;
     margin-right:3%;
-    /*margin-right: 3%;*/
-    /*margin-top: 55%;*/
     border-style: solid;
     border-color: dimgray;
     border-width: 1px;
@@ -56,13 +39,11 @@
     padding: 1%;
 }
 .contactMessage {
-    /*vertical-align: bottom;*/
     margin-left: 2%;
-    margin-bottom: 7%;
-    position: fixed;
+    margin-bottom: 13vh;
+    position: absolute;
     bottom: 0;
-    /*margin-left: 3%;*/
-    /*margin-top: 47%;*/
+    left: 0;
     float: left;
     border-style: solid;
     border-color: dimgray;
@@ -73,21 +54,14 @@
     width: fit-content;
     padding: 1%;
 }
-.btn {
-    height: 3.5vh;
-    margin-bottom: 1%;
-}
-
 .userTab{
     background-color: #072d4c;
 }
-
 .userName{
-    margin: 1vh;
-    color:rgb(220, 218, 218)
+    margin: 2%;
+    color: white;
 }
-  
-  #addContact{
+#addContact{
       color:white;
       margin-right: 10%;
       margin-top: 5%;
@@ -96,11 +70,11 @@
       fill:white;
 
   }
-  .addContact {
+.addContact {
       float: right;
       margin-top: 3%;
   }
-  .contacts{
+.contacts{
       background-color: #fba25dCA;
       border-style:solid;
       border-bottom-width: 1px;
@@ -108,30 +82,21 @@
       border-right:2px;
       border-top:1px;
   }
-  
-  .contacts:hover{
+.contacts:hover{
       background-color: rgb(255, 199, 146);
   }
-  
-  .dateTime{
+.dateTime{
       margin-right: 8%;
       margin-top: 7%;
       font-size: 14px;
       float: right;
       color: white;
   }
-  .chatWindow {
-      width: 50px;
-      height: 65vh;
-      background-color: rgb(255, 255, 255);
-  }
-
-  .contactBox {
+.contactBox {
     height: 65vh;
     background-color: #9fadbd;
     border-radius: 5px;
 }
-
 .profilePicture{
     margin-left:1vh;
     margin-top:1vh;
@@ -140,7 +105,6 @@
     height: 50px;
     border-radius: 25px;
 }
-
 .logoutbutton{
     margin-top:1px;
     margin-right:1px;
@@ -150,7 +114,29 @@
     width: 45vh;
     text-align: center;
 }
+.textOut {
+    position: absolute;
+    bottom: 0;
+    margin-left: 0.2%;
+    margin-bottom: 0.2%;
+    margin-top: 68%;
+    border-radius: 15px;
+    height: 6%;
+    width: 90.5%;
+    background-color: #e0e0e0;
+    font-size: 140%;
+}
+.outbtn {
+    position: absolute;
+    bottom: 0;
+    margin-left: 91%;
+    height: 6%;
+    margin-bottom: 0.2%;
 
-.sendTab{
-    margin-bottom: 1vh;
+}
+#text {
+    font-family: optima, sans-serif;
+}
+body{
+    background-image: url("background.jpg");
 }
